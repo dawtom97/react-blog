@@ -1,0 +1,33 @@
+
+
+.card {
+    flex-grow: 1;
+    flex-basis: 260px;
+    position: relative;
+}
+
+
+.thumbnail {
+    width: 100%;
+}
+
+.category {
+    position: absolute;
+    top:15px;
+    left:0;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 12px;
+    min-width: 50px;
+    border-radius: 0px 20px 20px 0;
+}
+
+.author {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.author img {
+    border-radius: 50%;
+    margin: 7px 0;
+}
